@@ -757,7 +757,7 @@ namespace AllianceTestPlan
                     {
                         try
                         {
-                            return driver.FindElement(By.XPath("/html/body/div/main/div/div[1]/div[3]/div/div[3]/button"));
+                            return driver.FindElement(By.XPath("/html/body/div/main/div/div[1]/div[3]/div/div[2]/button"));
                         }
                         catch (NoSuchElementException)
                         {
